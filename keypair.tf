@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "web-deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnhU2lnEz/RqHq8JJ5CcTkkgm0YeamBlbbp1vR6umll4kYzCHmrxiOQ0K8UFbd4RaXxTd2r8NXhLqDbbrIblaBV5StAS0oUFJG+evIAgGnaglvqdWw9QLIxtaK19HEgpDzhotrGHgQNmHBFyGF0p1Mh676w8UczE9XwYJVZ/TpqWnFAvX0jBBuctYHuS0M02Tr8/CI2fcN49bzV0+2qdnnXEzrXOUk6QJW9df3+G4h/3NDgurP8K4ghU17ysuYEIh9qubknzHfFJW+3SOC4Nbsy+IDt8MtyFopxR4ia8LZDbfmTx1ZcFrVy/ldeiBO2xRY4zLMapf332TYhca7ASZt jemalmoh.cloud@gmail.com"
+}

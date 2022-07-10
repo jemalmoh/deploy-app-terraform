@@ -1,0 +1,7 @@
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfvars
+terraform.tfstate.backup
+web-deployer-key
+web-deployer-key.pub
